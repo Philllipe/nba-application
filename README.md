@@ -10,6 +10,28 @@ You'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download
 
 You'll also need API keys for [SeatGeek](https://platform.seatgeek.com/), YouTube Data API v3 and Maps JavaScript API from the [Google Cloud Platform](https://console.cloud.google.com/). Optionally while running locally you'll need AWS credentials for programmatic access to display the page counter, otherwise this won't be displayed. These keys can be optional and the NBA games will still display, but not much else.
 
+## Technologies Used
+
+### Client
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+### Server
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Docker](https://www.docker.com/)
+- [AWS SDK for Node](https://aws.amazon.com/sdk-for-node-js/)
+- [Axios](https://axios-http.com/docs/intro)
+
+## API References
+
+- [BALLDONTLIE](https://www.balldontlie.io/)
+- [SeatGeek](https://platform.seatgeek.com/)
+- [YouTube Data API v3](https://developers.google.com/youtube/v3)
+- [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
+
 ## How To Use
 
 ### Local
@@ -94,18 +116,3 @@ From here create an S3 Bucket to host the website and upload the contents _insid
 ```
 
 After this the website should be accessible from the endpoint provided by the bucket and make calls to the server on the EC2. If the counter does not display on the home page, then the bucket has been removed.
-
-## Technologies Used
-
-## Client
-
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## Server
-
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/)
-- [Docker](https://www.docker.com/)
-- [AWS SDK for Node](https://aws.amazon.com/sdk-for-node-js/)
-- [Axios](https://axios-http.com/docs/intro)
