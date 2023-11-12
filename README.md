@@ -38,20 +38,9 @@ You'll also need API keys for [SeatGeek](https://platform.seatgeek.com/), YouTub
 
 These instructions will get a the project running locally.
 
-From your command line, clone and run NBA-Application:
+We will run the client and server separately using Docker. Docker does not need to be used and the server can be ran locally using `npm start` in the server directory after installing dependencies using `npm install`, but the environment variables will need to be set for the terminal session or by using a _.env_ file.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/Philllipe/nba-application.git
-
-# Go into the repository
-$ cd client
-
-# Install dependencies
-client $ npm install
-```
-
-From here we will run the client and server separately using Docker. Docker does not need to be used and the server can be ran locally using `npm start` in the server directory after installing dependencies using `npm install`, but the environment variables will need to be set for the terminal session or by using a _.env_ file.
+From your command line run the following commands:
 
 ```bash
 # Pull the server image from Docker Hub
@@ -60,9 +49,21 @@ $ docker pull philllipe/nba-server
 # Run the server image, mapping port 8000 to 8000 and setting the environment variables
 # AWS credentials are optional and only needed if you want to display the page counter
 $ docker run -dp 8000:8000 -e SEATGEEK_KEY=<seatgeek_client_id> -e YOUTUBE_KEY=<youtube_api_key> -e MAPS_KEY=<google_maps_api_key> philllipe/nba-server
+
+# Clone this repository
+$ git clone https://github.com/Philllipe/nba-application.git
+
+# Go into the repository and client directory
+$ cd nba-application/client
+
+# Install dependencies
+$ npm install
+
+# Start the React development server
+$ npm start
 ```
 
-Now the application should be running on [localhost:3000](http://localhost:3000/).
+Now the application should be running on [localhost:3000](http://localhost:3000/) and make calls to the server API on, which can be visited on [localhost:8000](http://localhost:8000).
 
 ### Cloud (AWS)
 
