@@ -94,3 +94,18 @@ From here create an S3 Bucket to host the website and upload the contents _insid
 ```
 
 After this the website should be accessible from the endpoint provided by the bucket and make calls to the server on the EC2. If the counter does not display on the home page, then the bucket has been removed.
+
+## Technologies Used
+
+## Client
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Server
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Docker](https://www.docker.com/)
+- [AWS SDK for Node](https://aws.amazon.com/sdk-for-node-js/)
+- [Axios](https://axios-http.com/docs/intro)
