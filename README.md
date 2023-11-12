@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This was university assignment for _CAB432 - Cloud Computing_. The application uses a variety of APIs to show past and upcoming NBA games with player statistics, highlights, news, ticket information, stadium information and locations using Google Maps. The user can go through different games by selecting a date using the date picker to input a date or select one, as well as use the arrows to go to the previous or next day. The application has integration with Amazon S3 to keep track of the amount of page visits and the website is hosted on an S3 Bucket, while the server is ran on an EC2 instance.
+This was university assignment for _CAB432 - Cloud Computing_. The application is a API Mashup project using Docker and AWS. It uses a variety of APIs to show past and upcoming NBA games with player statistics, highlights, news, ticket information, stadium information and locations using Google Maps. The user can go through different games by selecting a date using the date picker to input a date or select one, as well as use the arrows to go to the previous or next day. The application has integration with Amazon S3 to keep track of the amount of page visits and the website is hosted on an S3 Bucket, while the server is ran on an EC2 instance.
 
 ## Getting Started
 
