@@ -25,6 +25,11 @@ You'll also need API keys for [SeatGeek](https://platform.seatgeek.com/), YouTub
 - [AWS SDK for Node](https://aws.amazon.com/sdk-for-node-js/)
 - [Axios](https://axios-http.com/docs/intro)
 
+### AWS
+
+- [Amazon S3](https://aws.amazon.com/s3/)
+- [Amazon EC2](https://aws.amazon.com/ec2/)
+
 ## API References
 
 - [BALLDONTLIE](https://www.balldontlie.io/)
@@ -33,7 +38,7 @@ You'll also need API keys for [SeatGeek](https://platform.seatgeek.com/), YouTub
 - [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview)
 
 ## Demonstration 
-https://github.com/Philllipe/nba-application/assets/93122697/9c9315d2-4a1b-4298-b58f-d5dffb2fa26e
+https://github.com/Philllipe/nba-application/assets/93122697/2914c20f-20d8-4b96-a6f6-6bd2acf857d0
 
 ## How To Use
 
